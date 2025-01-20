@@ -1,0 +1,16 @@
+{
+  "id": "4318698",
+  "name": "开源项目-customIcon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "32538034",
+      "name": "拖拽",
+      "font_class": "tuozhuai",
+      "unicode": "e9ce",
+      "unicode_decimal": 59854
+    }
+  ]
+}
