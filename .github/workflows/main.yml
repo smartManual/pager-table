@@ -19,11 +19,17 @@ jobs:
         node-version: '16'
         registry-url: 'https://registry.npmjs.org/'
 
+    - name: Console AuthInfo
+      run: echo "_authToken=${{ secrets.NPM_TOKEN }}"
+
     - name: Authenticate to NPM
       run: echo "_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
     - name: Install Dependencies
       run: npm install
+    
+    - name: Build
+      run: npm run build
 
     - name: Publish to NPM
       run: npm publish --access=public
