@@ -48,8 +48,6 @@
 import { Space, Input, Button, Divider } from 'ant-design-vue'
 import moment from 'moment'
 
-import * as wheelnav from 'wheelnav/js/dist/wheelnav.min.js'
-
 export default {
   name: 'Home',
   components: {
@@ -116,9 +114,6 @@ export default {
         // resizable: true
       }]
     }
-  },
-  mounted() {
-    console.error(111, wheelnav)
   },
   methods: {
     onChange() {

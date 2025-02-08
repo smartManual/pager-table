@@ -24,7 +24,7 @@ module.exports = {
     }]
   },
   externals: {
-    'ant-design-vue': 'Antd'
+    'ant-design-vue': 'ant-design-vue'
   },
   output: {
     filename: 'index.js',
@@ -45,7 +45,7 @@ module.exports = {
         }
       ]
     }),
-    // new BundleAnalyzerPlugin()
+    new BundleAnalyzerPlugin()
   ],
   optimization: {
     minimize:true,

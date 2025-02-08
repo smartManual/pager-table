@@ -58,7 +58,7 @@
 
 <script>
 import { Table, Pagination, Input } from 'ant-design-vue'
-import OverflowTip from '@zero-org/overflow-tip'
+// import OverflowTip from '@zero-org/overflow-tip'
 import VueDraggableResizable from 'vue-draggable-resizable'
 
 import { getVal, DEFAULT_CURRENT, DEFAULT_PAGE_SIZE, DEFAULT_TOTAL } from './helpers'
@@ -71,7 +71,7 @@ export default {
     ATable: Table,
     APagination: Pagination,
     AInput: Input,
-    OverflowTip,
+    // OverflowTip,
     VueDraggableResizable
   },
   props: {
