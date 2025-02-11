@@ -1,6 +1,6 @@
 {
   "name": "@zero-org/pager-table",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "基于ant-design-vue@1.7.8二次封装的分页查询组件",
   "main": "dist/index.js",
   "module": "dist/index.js",
